@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="todo-container">
+        <h1>Todo List</h1>
+        <hr>
+        <div id="task-div">
+            <div>
+                <p>Nueva Tarea</p>
+                <input type="text" id="task-input" placeholder="Ingrese una tarea">
+                <button id="add-task-btn">Agregar</button>
+            </div>
+            <div id="task-div2">
+                <div id="total-tasks">Total de tareas: 0</div>
+                <div id="completed-tasks">Tareas realizadas: 0</div>
+                <ul id="task-list" class="task-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

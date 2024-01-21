@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#todo-container {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#task-input {
+    width: 70%;
+    padding: 8px;
+}
+
+#add-task-btn {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+#total-tasks, #completed-tasks {
+    margin-top: 10px;
+    font-weight: bold;
+}
